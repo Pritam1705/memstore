@@ -1,13 +1,13 @@
-project_id = "apna-mart-production"
+project_id = "orbital-expanse-461308-h6"
 
 postgres_password = "Pg@1234pass"
 
-network_name = "apnamart-prod-vpc"
+network_name = "default"
 
 clusters = {
   "apnamart-stage-alloydb-cluster" = {
     location     = "asia-south1"
-    network      = "apnamart-prod-vpc"
+    network      = "default"
     is_secondary = false
   }
 }
